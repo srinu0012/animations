@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container a{
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 20px;
+    background:linear-gradient(to left,yellow,bisque);
+}
+.container a:hover{
+    scale: 1.1;
+}
